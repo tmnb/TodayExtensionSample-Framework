@@ -22,6 +22,7 @@
 		2635D78D19CE6C6F001713DC /* SampleKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2635D78C19CE6C6F001713DC /* SampleKitTests.m */; };
 		2635D79019CE6C6F001713DC /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2635D77C19CE6C6F001713DC /* SampleKit.framework */; };
 		2635D79119CE6C6F001713DC /* SampleKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2635D77C19CE6C6F001713DC /* SampleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26B53FEC19D1253D00DD04F3 /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2635D77C19CE6C6F001713DC /* SampleKit.framework */; };
 		6BB93B36E42F4832967B3635 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D33DACE8164A1F9C71EFC7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B53FEC19D1253D00DD04F3 /* SampleKit.framework in Frameworks */,
 				2635D76519CE6BD9001713DC /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
